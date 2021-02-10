@@ -1,0 +1,108 @@
+/* CSS reset here*/
+
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+    font-family: arial, sans-serif;
+}
+
+#cuerpo {
+    background-color: lightgrey;
+    width: 1090px;
+    margin: 0px auto;
+    height: 0px auto;
+}
+
+#encabezado {
+    background-color: aquamarine;
+    height: 130px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#encabezado h1,
+h3 {
+    font-family: monospace;
+    margin: 15px;
+    font-size: 30px;
+}
+
+#navBar {
+    height: 35px;
+    background-color: #9A0E32;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 2px 2px black;
+}
+
+#navBar ul,
+li {
+    display: inline;
+}
+
+#navBar a {
+    text-decoration: none;
+    color: white;
+}
+
+.arcade {
+    margin-left: 800px;
+}
+
+#barraLateral {
+    width: 300px;
+    margin-left: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+#barraLateral h2 {
+    margin: 19px;
+    padding-left: 20px;
+    color: #272196;
+    text-align: center;
+}
+
+#barraLateral li {
+    border: 3px solid #433B3C;
+    display: inline-block;
+}
+
+#barraLateral h4 {
+    margin: 14px;
+}
+
+#contenedorPrincipal {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 25px;
+    padding-left: 130px;
+}
+
+#contenedorPrincipal h2 {
+    color: #D4AC0D;
+    font-size: 35px;
+}
+
+#contenedorPrincipal p {
+    margin: 10px;
+    font-style: italic;
+}
+
+#pieDePagina {
+    background: -webkit-linear-gradient(#407D61, white, #407D61);
+    text-align: center;
+    width: 1090px;
+    margin-top: 25px;
+    color:
+}
+
+#barraLateral p {
+    padding-bottom: 20px;
+}
+
+#barraLateral li {
+    border: 2px solid black;
+}
